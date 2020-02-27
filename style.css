@@ -67,7 +67,7 @@ h4 {
     color: #777777;
 }
 
-.col-4 {
+.col-3 {
     background: #F7F7F7;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
@@ -83,18 +83,21 @@ width: 64.1px;
     text-align: center;
     filter: brightness(0);
    margin-top: 52px;
-   margin-left: 87px
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+   /* margin-left: 101px */
    ;
 }
-.col-4:hover{
+.col-3:hover{
     background: #0EC8CB;
 }
-.col-4:hover .text-down  {
+.col-3:hover .text-down  {
     color:#fff;
 }
-.col-4:hover .images{
+.col-3:hover .images{
     filter: brightness(2000%);
 }
-.col-4:hover .text-bottom {
+.col-3:hover .text-bottom {
     color:#fff;
 }
